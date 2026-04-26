@@ -1,10 +1,11 @@
 import java.util.ArrayList;
+import java.util.List;
 
 public class StudentAManagment {
 
     //brain of the student class holding student information
 
-    private final ArrayList<Student> STUDENTLIST;
+    private final List<Student> STUDENTLIST;
 
     public StudentAManagment() {
         STUDENTLIST = new ArrayList<>();
